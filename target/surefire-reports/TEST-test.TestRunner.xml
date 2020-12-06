@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.TestRunner" time="106.388" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\cucumberproject02\target\test-classes;C:\cucumberproject02\target\classes;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rumam\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rumam\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rumam\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rumam\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rumam\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rumam\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rumam\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rumam\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rumam\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rumam\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-java\6.9.0\cucumber-java-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\rumam\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\rumam\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\rumam\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rumam\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\rumam\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\rumam\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\rumam\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\rumam\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\rumam\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\rumam\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\rumam\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\rumam\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\rumam\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\rumam\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\rumam\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\rumam\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\rumam\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\rumam\.m2\repository\net\masterthought\maven-cucumber-reporting\5.4.0\maven-cucumber-reporting-5.4.0.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-plugin-api\3.6.3\maven-plugin-api-3.6.3.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-model\3.6.3\maven-model-3.6.3.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-artifact\3.6.3\maven-artifact-3.6.3.jar;C:\Users\rumam\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.4\org.eclipse.sisu.plexus-0.3.4.jar;C:\Users\rumam\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\rumam\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\rumam\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\rumam\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.4\org.eclipse.sisu.inject-0.3.4.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\rumam\.m2\repository\org\apache\maven\plugins\maven-gpg-plugin\1.6\maven-gpg-plugin-1.6.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\rumam\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\rumam\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\rumam\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\rumam\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\rumam\.m2\repository\net\masterthought\cucumber-reporting\5.4.0\cucumber-reporting-5.4.0.jar;C:\Users\rumam\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\rumam\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\rumam\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\rumam\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\rumam\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\rumam\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\rumam\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\rumam\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\rumam\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\rumam\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\rumam\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
+    <property name="sun.java.command" value="C:\Users\rumam\AppData\Local\Temp\surefire839279220363711889\surefirebooter5245340989208708605.jar C:\Users\rumam\AppData\Local\Temp\surefire839279220363711889 2020-12-06T10-57-32_399-jvmRun1 surefire514755819765314170tmp surefire_013916402017861713633tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\cucumberproject02\target\test-classes;C:\cucumberproject02\target\classes;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rumam\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rumam\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rumam\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rumam\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rumam\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rumam\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rumam\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rumam\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rumam\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rumam\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rumam\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-java\6.9.0\cucumber-java-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\rumam\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\rumam\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\rumam\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\rumam\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rumam\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\rumam\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\rumam\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\rumam\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\rumam\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\rumam\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\rumam\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\rumam\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\rumam\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\rumam\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\rumam\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\rumam\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\rumam\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\rumam\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\rumam\.m2\repository\net\masterthought\maven-cucumber-reporting\5.4.0\maven-cucumber-reporting-5.4.0.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-plugin-api\3.6.3\maven-plugin-api-3.6.3.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-model\3.6.3\maven-model-3.6.3.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-artifact\3.6.3\maven-artifact-3.6.3.jar;C:\Users\rumam\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.4\org.eclipse.sisu.plexus-0.3.4.jar;C:\Users\rumam\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\rumam\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\rumam\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\rumam\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.4\org.eclipse.sisu.inject-0.3.4.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\rumam\.m2\repository\org\apache\maven\plugins\maven-gpg-plugin\1.6\maven-gpg-plugin-1.6.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\rumam\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\rumam\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\rumam\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\rumam\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\rumam\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\rumam\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\rumam\.m2\repository\net\masterthought\cucumber-reporting\5.4.0\cucumber-reporting-5.4.0.jar;C:\Users\rumam\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\rumam\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\rumam\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\rumam\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\rumam\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\rumam\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\rumam\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\rumam\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\rumam\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\rumam\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\rumam\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rumam"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\cucumberproject02"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\rumam\AppData\Local\Temp\surefire839279220363711889\surefirebooter5245340989208708605.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="user.name" value="rumam"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\rumam\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rumam\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="C:\cucumberproject02"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-11.0.8\bin;C:\Program Files\nodejs\;C:\maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\rumam\AppData\Local\Microsoft\WindowsApps;C:\Users\rumam\AppData\Roaming\npm;C:\Users\rumam\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Check login is successful with valid credentials" classname="Test login functionalities" time="15.819">
+    <system-out><![CDATA[
+@LoginTest @PositiveTest
+Scenario: Check login is successful with valid credentials &amp#27;[90m# src/test/resources/Features/positiveNegativeDatadriven.feature:5&amp#27;[0m
+10:57:44.618 [main] INFO  stepDefinition_cucumber.Hooks - Launch Chrome Browser
+10:57:48.537 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User is in the login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the login page&amp#27;[0m                        &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()&amp#27;[0m
+10:57:49.351 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User has enter valid credentials
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username "&amp#27;[0m&amp#27;[32m&amp#27;[1mmamun&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1m12345&amp#27;[0m&amp#27;[32m"&amp#27;[0m   &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+10:57:49.594 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User enter on login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on login button&amp#27;[0m                                &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()&amp#27;[0m
+10:57:49.734 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User is in the home page
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                  &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.validateUserLoggedSuccessfully()&amp#27;[0m
+10:57:52.355 [main] INFO  stepDefinition_cucumber.Hooks - Close Chrome Browser
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 30562
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 06, 2020 10:57:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check login is unsuccessful with invalid credentials #1" classname="Test login functionalities" time="10.415">
+    <system-out><![CDATA[
+@LoginTest @NegativeTest
+Scenario: Check login is unsuccessful with invalid credentials &amp#27;[90m# src/test/resources/Features/positiveNegativeDatadriven.feature:11&amp#27;[0m
+10:57:57.093 [main] INFO  stepDefinition_cucumber.Hooks - Launch Chrome Browser
+10:58:00.598 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User is in the login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the login page&amp#27;[0m                            &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()&amp#27;[0m
+10:58:01.156 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User has enter valid credentials
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username "&amp#27;[0m&amp#27;[32m&amp#27;[1mmamun&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1m444444&amp#27;[0m&amp#27;[32m"&amp#27;[0m      &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+10:58:01.284 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User enter on login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on login button&amp#27;[0m                                    &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()&amp#27;[0m
+10:58:01.363 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User still in log in page
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is failed to login&amp#27;[0m                                 &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.validateUserFailedToLogIN()&amp#27;[0m
+10:58:02.788 [main] INFO  stepDefinition_cucumber.Hooks - Close Chrome Browser
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 15442
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 06, 2020 10:57:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check login is unsuccessful with invalid credentials #2" classname="Test login functionalities" time="9.986">
+    <system-out><![CDATA[
+@LoginTest @negativeTest1
+Scenario: Check login is unsuccessful with invalid credentials      &amp#27;[90m# src/test/resources/Features/positiveNegativeDatadriven.feature:17&amp#27;[0m
+10:58:06.911 [main] INFO  stepDefinition_cucumber.Hooks - Launch Chrome Browser
+10:58:10.447 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User is in the login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the login page&amp#27;[0m                                 &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()&amp#27;[0m
+10:58:11.074 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User has enter valid credentials
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username "&amp#27;[0m&amp#27;[32m&amp#27;[1mmamunAbdullah&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1m44444445&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+10:58:11.214 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User enter on login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on login button&amp#27;[0m                                         &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()&amp#27;[0m
+10:58:11.298 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User still in log in page
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is failed to login&amp#27;[0m                                      &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.validateUserFailedToLogIN()&amp#27;[0m
+10:58:12.712 [main] INFO  stepDefinition_cucumber.Hooks - Close Chrome Browser
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 4036
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 06, 2020 10:58:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check login is successful with valid credentials for multiple users #1" classname="Test login functionalities" time="10.027">
+    <system-out><![CDATA[
+@LoginTest @DataDrivenTest
+Scenario Outline: Check login is successful with valid credentials for multiple users &amp#27;[90m# src/test/resources/Features/positiveNegativeDatadriven.feature:31&amp#27;[0m
+10:58:16.698 [main] INFO  stepDefinition_cucumber.Hooks - Launch Chrome Browser
+10:58:20.615 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User is in the login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the login page&amp#27;[0m                                                   &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()&amp#27;[0m
+10:58:21.196 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User has enter valid credentials
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username "&amp#27;[0m&amp#27;[32m&amp#27;[1mmamun&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1m12345&amp#27;[0m&amp#27;[32m"&amp#27;[0m                              &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+10:58:21.366 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User enter on login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on login button&amp#27;[0m                                                           &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()&amp#27;[0m
+10:58:21.475 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User is in the home page
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.validateUserLoggedSuccessfully()&amp#27;[0m
+10:58:22.926 [main] INFO  stepDefinition_cucumber.Hooks - Close Chrome Browser
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 45505
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 06, 2020 10:58:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check login is successful with valid credentials for multiple users #2" classname="Test login functionalities" time="11.267">
+    <system-out><![CDATA[
+@LoginTest @DataDrivenTest
+Scenario Outline: Check login is successful with valid credentials for multiple users &amp#27;[90m# src/test/resources/Features/positiveNegativeDatadriven.feature:32&amp#27;[0m
+10:58:26.919 [main] INFO  stepDefinition_cucumber.Hooks - Launch Chrome Browser
+10:58:31.790 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User is in the login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the login page&amp#27;[0m                                                   &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()&amp#27;[0m
+10:58:32.264 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User has enter valid credentials
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username "&amp#27;[0m&amp#27;[32m&amp#27;[1mHasan&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1m12345&amp#27;[0m&amp#27;[32m"&amp#27;[0m                              &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+10:58:32.397 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User enter on login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on login button&amp#27;[0m                                                           &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()&amp#27;[0m
+10:58:32.457 [main] INFO  stepDefinition_cucumber.PositiveNegativeSteps - User is in the home page
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to the home page&amp#27;[0m                                             &amp#27;[90m# stepDefinition_cucumber.PositiveNegativeSteps.validateUserLoggedSuccessfully()&amp#27;[0m
+10:58:33.971 [main] INFO  stepDefinition_cucumber.Hooks - Close Chrome Browser
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 25608
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 06, 2020 10:58:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify monthly payment with input values #1" classname="Test monthly refiCalculator payment" time="20.746">
+    <system-out><![CDATA[
+@dataParameter
+Scenario Outline: verify monthly payment with input values                  &amp#27;[90m# src/test/resources/Features/refiCalculator.feature:12&amp#27;[0m
+10:58:37.889 [main] INFO  stepDefinition_cucumber.Hooks - Launch Chrome Browser
+10:58:43.367 [main] INFO  stepDefinition_cucumber.refiCalculatorSteps_cucumber - User is in the home page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the mortgage calculator homepage&amp#27;[0m                       &amp#27;[90m# stepDefinition_cucumber.refiCalculatorSteps_cucumber.homePage()&amp#27;[0m
+10:58:46.870 [main] INFO  stepDefinition_cucumber.refiCalculatorSteps_cucumber - select refi Calculator
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mmouse hover on Refinence and click on Refi Calculator&amp#27;[0m                &amp#27;[90m# stepDefinition_cucumber.refiCalculatorSteps_cucumber.mouseHover()&amp#27;[0m
+10:58:46.877 [main] INFO  command_providers.WaitFor - Waiting for the locator By.id: HomeValueto be visible
+10:58:50.953 [main] INFO  stepDefinition_cucumber.refiCalculatorSteps_cucumber - User enter all credential
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser entering "&amp#27;[0m&amp#27;[32m&amp#27;[1m500000&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m70000&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m25&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m" click on calculate button&amp#27;[0m &amp#27;[90m# stepDefinition_cucumber.refiCalculatorSteps_cucumber.enterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+10:58:51.048 [main] INFO  command_providers.ElementAssertions - This is the validation By.xpath: //*[@id='analysisDiv']/table[3]//td[2][text()='$2,513.74']does exist
+10:58:52.998 [main] INFO  stepDefinition_cucumber.refiCalculatorSteps_cucumber - This is the validation of monthly payment
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the monthly payment "&amp#27;[0m&amp#27;[32m&amp#27;[1m$2,513.74&amp#27;[0m&amp#27;[32m" and return to homepage&amp#27;[0m      &amp#27;[90m# stepDefinition_cucumber.refiCalculatorSteps_cucumber.validatePayment(java.lang.String)&amp#27;[0m
+10:58:54.839 [main] INFO  stepDefinition_cucumber.Hooks - Close Chrome Browser
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 46037
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 06, 2020 10:58:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify monthly payment with input values #2" classname="Test monthly refiCalculator payment" time="24.691">
+    <system-out><![CDATA[
+@dataParameter
+Scenario Outline: verify monthly payment with input values                  &amp#27;[90m# src/test/resources/Features/refiCalculator.feature:13&amp#27;[0m
+10:58:59.628 [main] INFO  stepDefinition_cucumber.Hooks - Launch Chrome Browser
+10:59:08.732 [main] INFO  stepDefinition_cucumber.refiCalculatorSteps_cucumber - User is in the home page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the mortgage calculator homepage&amp#27;[0m                       &amp#27;[90m# stepDefinition_cucumber.refiCalculatorSteps_cucumber.homePage()&amp#27;[0m
+10:59:12.136 [main] INFO  stepDefinition_cucumber.refiCalculatorSteps_cucumber - select refi Calculator
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mmouse hover on Refinence and click on Refi Calculator&amp#27;[0m                &amp#27;[90m# stepDefinition_cucumber.refiCalculatorSteps_cucumber.mouseHover()&amp#27;[0m
+10:59:12.138 [main] INFO  command_providers.WaitFor - Waiting for the locator By.id: HomeValueto be visible
+10:59:16.190 [main] INFO  stepDefinition_cucumber.refiCalculatorSteps_cucumber - User enter all credential
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser entering "&amp#27;[0m&amp#27;[32m&amp#27;[1m600000&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m50000&amp#27;[0m&amp#27;[32m","&amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m" click on calculate button&amp#27;[0m &amp#27;[90m# stepDefinition_cucumber.refiCalculatorSteps_cucumber.enterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+10:59:16.287 [main] INFO  command_providers.ElementAssertions - This is the validation By.xpath: //*[@id='analysisDiv']/table[3]//td[2][text()='$3,297.53']does exist
+10:59:17.951 [main] INFO  stepDefinition_cucumber.refiCalculatorSteps_cucumber - This is the validation of monthly payment
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the monthly payment "&amp#27;[0m&amp#27;[32m&amp#27;[1m$3,297.53&amp#27;[0m&amp#27;[32m" and return to homepage&amp#27;[0m      &amp#27;[90m# stepDefinition_cucumber.refiCalculatorSteps_cucumber.validatePayment(java.lang.String)&amp#27;[0m
+10:59:19.459 [main] INFO  stepDefinition_cucumber.Hooks - Close Chrome Browser
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 2594
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 06, 2020 10:58:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

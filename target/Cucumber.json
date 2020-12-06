@@ -1,0 +1,748 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-06T15:57:37.145Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7311430800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionalities;check-login-is-successful-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 2620727500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3879745000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user is on the login page",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 811003000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username \"mamun\" and password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mamun",
+                  "offset": 22
+                },
+                {
+                  "val": "12345",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 242001100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138998700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.validateUserLoggedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTest"
+          },
+          {
+            "name": "@PositiveTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-06T15:57:52.381Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4709780500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Check login is unsuccessful with invalid credentials",
+        "description": "",
+        "id": "test-login-functionalities;check-login-is-unsuccessful-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1425053200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3505724200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "a user is on the login page",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 548765300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters username \"mamun\" and password \"444444\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mamun",
+                  "offset": 22
+                },
+                {
+                  "val": "444444",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126997700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77998200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is failed to login",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.validateUserFailedToLogIN()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTest"
+          },
+          {
+            "name": "@NegativeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-06T15:58:02.823Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4086213600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Check login is unsuccessful with invalid credentials",
+        "description": "",
+        "id": "test-login-functionalities;check-login-is-unsuccessful-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1414510600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3537720400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a user is on the login page",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 623995100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters username \"mamunAbdullah\" and password \"44444445\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mamunAbdullah",
+                  "offset": 22
+                },
+                {
+                  "val": "44444445",
+                  "offset": 51
+                }
+              ],
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139983400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78998900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is failed to login",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.validateUserFailedToLogIN()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTest"
+          },
+          {
+            "name": "@negativeTest1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-06T15:58:12.732Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3964800800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Check login is successful with valid credentials for multiple users",
+        "description": "",
+        "id": "test-login-functionalities;check-login-is-successful-with-valid-credentials-for-multiple-users;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1450524600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3916933900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a user is on the login page",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 579443500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters username \"mamun\" and password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mamun",
+                  "offset": 22
+                },
+                {
+                  "val": "12345",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170002600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109002800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.validateUserLoggedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTest"
+          },
+          {
+            "name": "@DataDrivenTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-06T15:58:22.945Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3973079700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Check login is successful with valid credentials for multiple users",
+        "description": "",
+        "id": "test-login-functionalities;check-login-is-successful-with-valid-credentials-for-multiple-users;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1512843100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4870760400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a user is on the login page",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 473109000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters username \"Hasan\" and password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hasan",
+                  "offset": 22
+                },
+                {
+                  "val": "12345",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132004900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58996100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "stepDefinition_cucumber.PositiveNegativeSteps.validateUserLoggedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTest"
+          },
+          {
+            "name": "@DataDrivenTest"
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionalities",
+    "description": "",
+    "id": "test-login-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/positiveNegativeDatadriven.feature",
+    "tags": [
+      {
+        "name": "@LoginTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-06T15:58:33.998Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3881114300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verify monthly payment with input values",
+        "description": "",
+        "id": "test-monthly-reficalculator-payment;verify-monthly-payment-with-input-values;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1840856200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5479588600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user is on the mortgage calculator homepage",
+            "match": {
+              "location": "stepDefinition_cucumber.refiCalculatorSteps_cucumber.homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3501528900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "mouse hover on Refinence and click on Refi Calculator",
+            "match": {
+              "location": "stepDefinition_cucumber.refiCalculatorSteps_cucumber.mouseHover()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4082001600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user entering \"500000\",\"70000\",\"25\" and \"5\" click on calculate button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500000",
+                  "offset": 15
+                },
+                {
+                  "val": "70000",
+                  "offset": 24
+                },
+                {
+                  "val": "25",
+                  "offset": 32
+                },
+                {
+                  "val": "5",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinition_cucumber.refiCalculatorSteps_cucumber.enterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2044002400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate the monthly payment \"$2,513.74\" and return to homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$2,513.74",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition_cucumber.refiCalculatorSteps_cucumber.validatePayment(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataParameter"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-06T15:58:54.908Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4707896800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "verify monthly payment with input values",
+        "description": "",
+        "id": "test-monthly-reficalculator-payment;verify-monthly-payment-with-input-values;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1506759600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9104635200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user is on the mortgage calculator homepage",
+            "match": {
+              "location": "stepDefinition_cucumber.refiCalculatorSteps_cucumber.homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3403717900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "mouse hover on Refinence and click on Refi Calculator",
+            "match": {
+              "location": "stepDefinition_cucumber.refiCalculatorSteps_cucumber.mouseHover()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4053276000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user entering \"600000\",\"50000\",\"30\" and \"6\" click on calculate button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600000",
+                  "offset": 15
+                },
+                {
+                  "val": "50000",
+                  "offset": 24
+                },
+                {
+                  "val": "30",
+                  "offset": 32
+                },
+                {
+                  "val": "6",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinition_cucumber.refiCalculatorSteps_cucumber.enterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1761024600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate the monthly payment \"$3,297.53\" and return to homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$3,297.53",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition_cucumber.refiCalculatorSteps_cucumber.validatePayment(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataParameter"
+          }
+        ]
+      }
+    ],
+    "name": "Test monthly refiCalculator payment",
+    "description": "",
+    "id": "test-monthly-reficalculator-payment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/refiCalculator.feature",
+    "tags": []
+  }
+]
